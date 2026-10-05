@@ -86,8 +86,3 @@ the process may have changed and the model should be retrained).
 file, *accessed* by loading it into the API at start-up, and *served* over the
 `/predict` REST endpoint.
 
-## Optional extensions
-
-- Containerise with Docker and run multiple API replicas behind a load balancer (scalability).
-- Replace the log file with a real message queue + time-series DB.
-- Deploy the API to a cloud service; the simulator then points at the cloud URL.
